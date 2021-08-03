@@ -237,8 +237,8 @@
     bottom: 0
     left: 0
     right: 0
-    padding: 6em 3em
-    font-size: 0.7rem
+    padding: 3.5em 3em
+    font-size: 0.9rem
     vertical-align: middle
 
 .tarjeta.color-primario--claro
@@ -302,3 +302,51 @@
   > *
     color: $color-primario
     font-weight: 800
+
+.figure-introduccion
+  position: relative
+  img
+    position: relative
+  &::after 
+    position: absolute
+    content: 'Para la elaboración de este componente, se abordaron varios autores conocidos en procesamiento, fabricación y ensamble, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido que el conocimiento es social y, por lo tanto, es para usarlo por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos del desarrollo de colecciones para la industria de la moda.'
+    top: 20%
+    bottom: 50%
+    left: 10%
+    right: 45%
+.figure-introduccion-2
+  background-color: #EDDDC4
+  display: none
+
+@media screen and ( max-width: 1399px )
+  .comparacion
+    > p
+      padding: 4em 3em
+      font-size: 0.75rem
+@media screen and ( max-width: 1200px )
+  .figure-introduccion
+    &::after
+      top: 20%
+      bottom: 20%
+      left: 10%
+      right: 10%
+      background-color: #EDDDC4
+      padding: 15px
+      border-radius: 25px
+  .figure-introduccion-2
+    display: none
+  .comparacion
+    > p
+      padding: 5em 3em
+      font-size: 0.6rem
+
+
+@media screen and ( max-width: 991px )
+  .figure-introduccion
+    display: none
+  .figure-introduccion-2
+    display: inherit
+  .comparacion
+    > p
+      padding: 8em 3em
+      font-size: 1.2rem

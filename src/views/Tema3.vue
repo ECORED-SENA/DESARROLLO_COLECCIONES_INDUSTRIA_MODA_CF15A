@@ -13,7 +13,7 @@
     .row.justify-content-center
       .col-md-10
         .cajon.color-primario.px-4.pt-4.pb-2.mb-4
-          p En este punto, se desarrollarán diferentes criterios y generalidades que se deben conocer para un óptimo rendimiento de los productos y diseño a desarrollar. Por lo tanto, las clasificaciones de las máquinas comienzan por su capacidad de costura. Las máquinas en su construcción, por la potencia que poseen al coser materiales y su velocidad, se dividen en:
+          p En confección, y particularmente las diseñadoras, se deben tener los conocimientos sobre los tejidos, hilos y agujas con que se dará estructura a las puntadas, que se transforman en costuras y que dan forma a los tejidos, para obtener una mejor apariencia que se verá reflejada en los terminados y la calidad del producto.
 
     TabSpecial.color-acento-botones.mb-5
       .py-3.py-md-4(titulo="La aguja y sus\r\naplicaciones" :imagen="images[0]" :numero="numbers[0]")
@@ -290,7 +290,7 @@
         h5 Introducción a materiales de los hilos
         p.mb-5 Algunos materiales con los que están construidos los hilos son los siguientes:
 
-        .row
+        .row.mb-5
           .col-12.col-md-4.mb-4.mb-md-0
             figure
               img(src="@/assets/curso/tema3-imagen25.jpg")

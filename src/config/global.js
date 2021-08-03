@@ -361,6 +361,31 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Jhon Alexander Durango',
+        cargo: 'Instructor',
+        centro: 'Centro de diseño confección y moda, Itagüí, Antioquia.',
+      },
+      {
+        nombre: 'María Luisa Yepes Sierra',
+        cargo: 'Instructora',
+        centro: 'Centro de diseño confección y moda, Itagüí, Antioquia.',
+      },
+      {
+        nombre: 'Marisol Osorio Beltrán',
+        cargo: 'Líder Sennova',
+        centro: 'Centro de diseño confección y moda, Itagüí, Antioquia.',
+      },
+      {
+        nombre: 'Jhon Fernando Jaramillo Taborda',
+        cargo: 'Investigador – Grupo de investigación INAMOD',
+        centro: 'Centro de diseño confección y moda, Itagüí, Antioquia.',
+      },
+      {
+        nombre: 'Uriel Darío González Montoya',
+        cargo: 'Acompañamiento pedagógico',
+        centro: 'Regional Tolima – Centro Agropecuario La Granja',
+      },
     ],
     desarrolloProducto: [
       {
@@ -375,25 +400,19 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Oscar Ivan Uribe Ortiz',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Sergio Omar Camacho Orduz',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Veimar Celis Melendez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

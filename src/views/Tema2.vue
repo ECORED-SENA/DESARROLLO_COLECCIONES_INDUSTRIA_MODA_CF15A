@@ -134,7 +134,7 @@
           .col-md-3.mb-3.mb-md-0.d-flex
             .box-images
               figure
-                img(src="@/assets/curso/tema2-imagen4.jpg")
+                img(src="@/assets/curso/tema2-imagen8.jpg")
               .box-color-soft.azul.p-4
                 p.mb-0
                   strong Interruptor
@@ -143,7 +143,7 @@
           .col-md-3.mb-3.mb-md-0.d-flex
             .box-images
               figure
-                img(src="@/assets/curso/tema2-imagen3.jpg")
+                img(src="@/assets/curso/tema2-imagen9.jpg")
               .box-color-soft.rosa.p-4
                 p.mb-0
                   strong Pedal
@@ -203,15 +203,15 @@
                     br
                     br
                     strong Diente: 
-                    |  Este dispositivo mecánico es el encargado de desplazar el material a coser. El diente, para poder desplazar el material, debe sujetarlo, esa función la realiza con la parte superior, que hace contacto con la tela y, en el momento que comienza a transportarlo por efecto de la fricción, la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
+                    |  este dispositivo mecánico es el encargado de desplazar el material a coser. El diente, para poder desplazar el material, debe sujetarlo, esa función la realiza con la parte superior, que hace contacto con la tela y, en el momento que comienza a transportarlo por efecto de la fricción, la tela se incrusta entre la separación de los dientes y es así como el diente desplaza el material.
                     br
                     br
                     strong Planchuela: 
-                    |  Es la que sirve de apoyo al material cuando el diente se encuentra regresando; además, viene provista de un orificio que es el lugar de penetración de la aguja; este orificio varía de acuerdo al ajuste, pues él debe de ser un 40% más amplio que la hoja de la aguja. La planchuela tiene carriles; estos deben ser iguales al número de carriles del diente; además, el diente debe de desplazarse en la totalidad del carril de la plancha
+                    |  es la que sirve de apoyo al material cuando el diente se encuentra regresando; además, viene provista de un orificio que es el lugar de penetración de la aguja; este orificio varía de acuerdo al ajuste, pues él debe de ser un 40% más amplio que la hoja de la aguja. La planchuela tiene carriles; estos deben ser iguales al número de carriles del diente; además, el diente debe de desplazarse en la totalidad del carril de la plancha.
                     br
                     br
                     strong Prensatelas: 
-                    |  Es el encargado de apoyar el material contra el diente para que pueda ser transportado. La presión que se le debe dar varía de acuerdo con el material, porque si la presión no es la adecuada, la apariencia de la costura no será la requerida.
+                    |  es el encargado de apoyar el material contra el diente para que pueda ser transportado. La presión que se le debe dar varía de acuerdo con el material, porque si la presión no es la adecuada, la apariencia de la costura no será la requerida.
                     br
                     br
                     | Problemas por una presión inadecuada, pues el prensatelas solo hace contacto con la tela superior:
@@ -446,7 +446,7 @@
     Separador
 
     #t_2_2.titulo-segundo
-      h2 2.2  Generaciones de máquinas: priema, segunda, tercera, ultrasonido
+      h2 2.2  Generaciones de máquinas: primera, segunda, tercera, ultrasonido
 
     p.mb-5 En la búsqueda de reconocer e identificar los diferentes tipos de máquinas, tipos de camas, ajustes, partes y funciones, encontramos las generaciones tecnológicas, las cuales presentan mejores alternativas al diseñador para poder aumentar o disminuir áreas de costura, tipos de puntadas, fruncidos de tela, entre otros aspectos importantes de acuerdo con el nivel de producción deseada.
 
@@ -509,7 +509,7 @@
           p.mb-0 01
         .col-12.col-md.mb-4.mb-md-0
           .p-5
-            h4 Maquinas familiares o domésticas
+            h4 Máquinas familiares o domésticas
             p.mb-4 Máquinas que por su versatilidad poseen las siguientes características:
             ul.lista-ul--color.mb-4
               li 
@@ -570,9 +570,11 @@
                 | Diversidad de puntadas: costura recta, zigzag sencillo, ojal recto, pegar botón, pegar apliques.
 
             .titulo-sexto.color-acento-contenido
-              span Máquina plana semindustrial 
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen4.jpg")
+              span Máquina plana semindustrial
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen4.jpg")
 
       .row(v-if="modalActive === 2")
         .col-12.col-md-auto.mb-4.mb-md-0.p-3.colum-modal.color-acento-contenido
@@ -594,8 +596,10 @@
             
             .titulo-sexto.color-acento-contenido
               span Existen máquinas industriales como: zigzag sencillo, doble o triple; plana de una y dos agujas, de coser y cortar; fileteadoras sencillas, de refuerzo o seguridad; recubridoras o collarín; pretinadora, multiagujas, cerradora de codo y flatseamer, entre otras. 
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen5.jpg")
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen5.jpg")
           
       .row(v-if="modalActive === 3")
         .col-12.col-md-auto.mb-4.mb-md-0.p-3.colum-modal.color-primario
@@ -642,8 +646,10 @@
             p.mb-4 Cuando la cama de la máquina queda al mismo nivel del mueble de la máquina.
             .titulo-sexto.color-acento-contenido
               span Máquina fileteadora puntada de seguridad sumergida
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen9.jpg")
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen9.jpg")
           
       .row(v-if="modalActive === 5")
         .col-12.col-md-auto.mb-4.mb-md-0.p-3.colum-modal.color-acento-contenido
@@ -654,9 +660,11 @@
             p.mb-4 Son las máquinas más comunes. El cárter, o depósito de aceite, se encuentra dentro del mueble y la cama de la máquina más arriba del mueble; su principal beneficio es el contorno de todo el mueble para usos de prendas de talla grande.
             
             .titulo-sexto.color-acento-contenido
-              span Máquina semisumergida 
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen10.jpg")
+              span Máquina semisumergida
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen10.jpg")
           
       .row(v-if="modalActive === 6")
         .col-12.col-md-auto.mb-4.mb-md-0.p-3.colum-modal.color-primario
@@ -668,8 +676,10 @@
 
             .titulo-sexto.color-acento-contenido
               span Máquina presilladora no sumergida
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen11.jpg")
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen11.jpg")
           
       .row(v-if="modalActive === 7")
         .col-12.col-md-auto.mb-4.mb-md-0.p-3.colum-modal.color-acento-botones
@@ -680,8 +690,10 @@
             p.mb-4 Este tipo de cama facilita la manipulación del material en costuras de cocido recto y materiales anchos.
             .titulo-sexto.color-acento-contenido
               span Máquina de poste
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen12.jpg")
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen12.jpg")
             
       .row(v-if="modalActive === 8")
         .col-12.col-md-auto.mb-4.mb-md-0.p-3.colum-modal.color-acento-contenido
@@ -692,8 +704,10 @@
             p.mb-4 Permite coser partes cilíndricas en su perímetro, su estructura es especialmente adecuada para trabajar piezas tubulares, tales como puños, mangas, materiales cerrados, entre otros. Este tipo de cama también se emplea en la máquina de pegar botones.
             .titulo-sexto.color-acento-contenido
               span Máquina ribeteadora
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen13.jpg")
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen13.jpg")
             
       .row(v-if="modalActive === 9")
         .col-12.col-md-auto.mb-4.mb-md-0.p-3.colum-modal.color-primario
@@ -705,8 +719,10 @@
             p.mb-4 La zona cosida es transportada a lo largo del brazo hacia fuera. Permite coser partes cilíndricas o tubulares; operaciones tales como cerrar mangas, cerrar piernas de pantalón o jean, entre otros.
             .titulo-sexto.color-acento-contenido
               span Máquina cerradora de codo 
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen14.jpg")
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen14.jpg")
           
       .row(v-if="modalActive === 10")
         .col-12.col-md-auto.mb-4.mb-md-0.p-3.colum-modal.color-acento-botones
@@ -717,8 +733,10 @@
             p.mb-4 Se emplea en aplicaciones especiales que requieren el trabajo en tres dimensiones. La columna facilita el trabajo en zonas curvas y en esquina. Operaciones de marroquinería, como confección de calzado y bolsos, entre otros.
             .titulo-sexto.color-acento-contenido
               span Máquina de poste
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen15.jpg")
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen15.jpg")
             
       .row(v-if="modalActive === 11")
         .col-12.col-md-auto.mb-4.mb-md-0.p-3.colum-modal.color-acento-contenido
@@ -729,8 +747,10 @@
             p.mb-4 Este tipo de máquina se especializa en coser solo al canto de costura, costuras elásticas y de sobrehilado.
             .titulo-sexto.color-acento-contenido
               span Máquina fileteadora sencilla
-            figure.mb-5(style="max-width: 40%")
-              img(src="@/assets/curso/tema2-modalimagen16.jpg")
+            .row
+              .col-lg-3
+                figure.mb-5
+                  img(src="@/assets/curso/tema2-modalimagen16.jpg")
             .row.align-items-center.exclamation.py-3.mb-5
               .col-12.col-md-auto
                 figure
@@ -812,7 +832,7 @@ export default {
       },
       {
         id: 'id-4',
-        title: 'Dos agujas',
+        title: 'Cilíndrica de codo',
         link: 'https://www.youtube.com/embed/vMN0rVY0g4Y',
       },
       {
