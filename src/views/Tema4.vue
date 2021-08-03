@@ -19,7 +19,7 @@
           br
           | Ahora se exponen mapas de enhebrado de cada tipo de máquina e instrucciones para la calibración de la puntada: 
 
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF15_A_4.1_Enhebrados de máquina plana y +.docx.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/enebrados.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -27,7 +27,7 @@
               strong Anexo.
               |  Enhebrados de máquina plana, enhebrado caja bobina y ajuste de tensión de puntada.
 
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF15_A_4.2_Enhebrado_maquina_fileteadora_ajuste de tension.docx.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/fileteadora.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -35,7 +35,7 @@
               strong Anexo.
               |  Enhebrado máquina fileteadora, ajuste de tensión.
         
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF15_A_4.3_Enhebrados recubridora-Collarín.docx.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/recubridora.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -43,7 +43,7 @@
               strong Anexo.
               |  Enhebrado máquina recubridora Collarín.
 
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF15_A_4.4_Puntadas por pulgada.docx.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/puntadas.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -51,7 +51,7 @@
               strong Anexo.
               |  Puntadas por pulgada.
 
-        a.anexo.mb-4(:href="obtenerLink('/downloads/CF15_A_4.5_Ejercicios manejo y control de pedal.docx.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/pespuntes.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
