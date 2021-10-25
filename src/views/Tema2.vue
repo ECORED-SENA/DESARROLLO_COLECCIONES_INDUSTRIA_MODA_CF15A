@@ -67,7 +67,7 @@
           .tarjeta.color-secundario.p-3(x="50%" y="42.4%", color="color-secundario")
             p.mb-0.text-white Haga click para mas informacion
 
-    slider-videos(:items="items")
+    //- slider-videos(:items="items")
 
     #t_2_1.titulo-segundo
       h2 2.1  La máquina y sus partes: ajustes
